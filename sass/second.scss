@@ -1,0 +1,304 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    color: rgb(50, 168, 189);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    min-height: 100vh;
+    background-color: #23242a;
+}
+
+.box {
+    padding: 2rem;
+    height: 90vh;
+    width: 85vw;
+    background-color: #1c1c1c;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    input {
+        color: rgb(50, 168, 189);
+        height: 6%;
+        
+        padding: 5px;
+        background: transparent;
+        border: none;
+        width: 80%;
+        border-bottom: 2px solid rgb(50, 168, 189);
+        font-size: 1.5rem;
+        font-weight: bold;
+
+    }
+
+
+    button {
+        height: 60px;
+        width: 120px;
+        border-radius: 10px;
+        color: rgb(255, 255, 255);
+        background: transparent;
+        font-size: 2.3rem;
+        cursor: pointer;
+        border: 2px solid rgb(50, 168, 189);
+        transition: .3s;
+            &:hover {
+                background: rgb(50, 168, 189);
+                color: black;
+            }
+        
+    }
+
+    textarea {
+        height: 25%;
+        max-height: 25%;
+        width: 70%;
+        max-width: 70%;
+        padding: 2rem;
+        font-size: 1.2rem;
+        background: transparent;
+        border: 2px solid rgb(50, 168, 189);
+        border-radius: 15px;
+        color: rgb(50, 168, 189);
+    }
+
+    p {
+        font-size: 2rem;
+        text-transform: uppercase;
+        margin-top: 2rem;
+        color: white;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+}
+
+
+@media (min-width: 565px) {
+    .box {
+        padding: 2rem;
+        height: 90vh;
+        width: 85vw;
+
+    
+        input {         
+            height: 6%; 
+            padding: 5px;
+            width: 70%;
+            font-size: 1.7rem;
+        }
+    
+    
+        button {
+            height: 60px;
+            width: 120px;
+            font-size: 2.4rem; 
+        }
+    
+        textarea {
+            height: 25%;
+            max-height: 25%;
+            width: 70%;
+            max-width: 70%;
+            padding: 2rem;
+            font-size: 1.5rem;
+        }
+    
+        p {
+            font-size: 2.2rem;
+            margin-top: 2.2rem;
+        }
+    
+        h1 {
+            font-size: 5rem;
+        }
+    
+    }
+}
+@media (min-width: 746px) {
+    .box {
+        padding: 2rem;
+        height: 80vh;
+        width: 70vw;
+
+    
+        input {         
+            height: 6%; 
+            padding: 5px;
+            width: 70%;
+            font-size: 1.7rem;
+        }
+    
+    
+        button {
+            height: 60px;
+            width: 120px;
+            font-size: 2.4rem; 
+            margin-top: 2rem;
+        }
+    
+        textarea {
+            height: 25%;
+            max-height: 25%;
+            width: 70%;
+            max-width: 70%;
+            padding: 2rem;
+            font-size: 1.5rem;
+        }
+    
+        p {
+            font-size: 2.2rem;
+            margin-top: 2.2rem;
+        }
+    
+        h1 {
+            font-size: 5rem;
+        }
+    
+    }
+}
+@media (min-width: 900px) {
+    .box {
+        padding: 2rem;
+        height: 80vh;
+        width: 50vw;
+
+    
+        input {         
+            height: 6%; 
+            padding: 5px;
+            width: 60%;
+            font-size: 1.7rem;
+        }
+    
+    
+        button {
+            height: 60px;
+            width: 120px;
+            font-size: 2.4rem; 
+            margin-top: 2rem;
+        }
+    
+        textarea {
+            height: 25%;
+            max-height: 25%;
+            width: 70%;
+            max-width: 70%;
+            padding: 2rem;
+            font-size: 1.5rem;
+        }
+    
+        p {
+            font-size: 2.2rem;
+            margin-top: 2.2rem;
+        }
+    
+        h1 {
+            font-size: 5rem;
+        }
+    
+    }
+}
+@media (min-width: 1150px) {
+    .box {
+        padding: 2rem;
+        height: 80vh;
+        width: 40vw;
+
+    
+        input {         
+            height: 6%; 
+            padding: 5px;
+            width: 50%;
+            font-size: 1.7rem;
+        }
+    
+    
+        button {
+            height: 60px;
+            width: 120px;
+            font-size: 2.4rem; 
+            margin-top: 2rem;
+        }
+    
+        textarea {
+            height: 25%;
+            max-height: 25%;
+            width: 50%;
+            max-width: 50%;
+            padding: 2rem;
+            font-size: 1.5rem;
+        }
+    
+        p {
+            font-size: 2.2rem;
+            margin-top: 2.2rem;
+        }
+    
+        h1 {
+            font-size: 5rem;
+        }
+    
+    }
+}
+@media (min-width:1400px) {
+    .box {
+        padding: 2rem;
+        height: 80vh;
+        width: 30vw;
+
+    
+        input {         
+            height: 6%; 
+            padding: 5px;
+            width: 50%;
+            font-size: 1.7rem;
+        }
+    
+    
+        button {
+            height: 60px;
+            width: 120px;
+            font-size: 2.4rem; 
+            margin-top: 2rem;
+        }
+    
+        textarea {
+            height: 25%;
+            max-height: 25%;
+            width: 50%;
+            max-width: 50%;
+            padding: 2rem;
+            font-size: 1.5rem;
+        }
+    
+        p {
+            font-size: 2.2rem;
+            margin-top: 2.2rem;
+        }
+    
+        h1 {
+            font-size: 5rem;
+        }
+    
+    }
+}
